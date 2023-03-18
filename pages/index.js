@@ -8,7 +8,7 @@ import Link from 'next/link';
 import Date from '../components/Date';
 
 import { getSortedPostsData } from '../lib/posts';
-
+//some comments
 export async function getStaticProps() {
 	const allPostsData = getSortedPostsData();
 	return {
@@ -28,6 +28,8 @@ export default function Home({ allPostsData }) {
 						<li className={utilStyles.listItem} key={id}>
 							<Link href={`/posts/${id}`}>{title}</Link>
 							<br />
+							<br />
+
 							<small className={utilStyles.lightText}>
 								<Date dateString={date} />
 							</small>
