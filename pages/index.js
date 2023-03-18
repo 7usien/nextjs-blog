@@ -5,7 +5,7 @@ import Layout from './../components/Layout';
 import siteTitle from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import Date from '../components/date';
+import Date from '../components/Date';
 
 import { getSortedPostsData } from '../lib/posts';
 
