@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../../components/layout';
 import { getPostData } from '../../lib/posts';
 import getAllPostsIds from './../../lib/getAllPostsIds';
-import Date from '../../components/date';
+import Date from '../../components/Date';
 import utilStyles from '../../styles/utils.module.css';
 
 export async function getStaticPaths() {
